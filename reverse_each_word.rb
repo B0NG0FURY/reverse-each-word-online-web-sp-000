@@ -4,6 +4,5 @@ def reverse_each_word(string)
     word_reverse = []
     word_reverse << word.reverse
   end
-  reverse_string = word_reverse.join(" ")
-  reverse_string
+  word_reverse.join(" ")
 end
